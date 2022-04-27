@@ -1,0 +1,13 @@
+1651084540078	geckodriver	INFO	Listening on 127.0.0.1:51910
+1651084540596	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\vanceju\\AppData\\Local\\Temp\\rust_mozprofileoaATFU"
+console.error: Enterprise Policies: 
+  Policy SearchEngines is only allowed on ESR
+1651084540953	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\vanceju\\AppData\\Local\\Temp\\rust_mozprofileoaATFU\\search.json.mozlz4", (void 0)))
+1651084542909	Marionette	INFO	Listening on port 51933
+Read port: 51933
+1651084543084	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651084545809	Marionette	INFO	Stopped listening on port 51933
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PSessionStorageObserver::Msg_Observe) Channel closing: too late to send/recv, messages will be lost
+
